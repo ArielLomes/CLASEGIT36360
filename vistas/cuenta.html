@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HighLevel</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header class="header">
+        <a href="../index.html">
+            <img src="../assets/logopage.png" alt="turbo" width="60rem" id="header__logo">
+            <nav>   
+                <ul class="header__navbar">
+                    <li><a href="../index.html"><img src="../assets/zip icon/homeicon.png" alt="Inicio">Inicio</a></li>
+                    <li><a href="../vistas/repuestos.html"><img src="../assets/zip icon/repuestosicon.png" alt="repuestos">Repuestos</a></li>
+                    <li><a href="../vistas/store.html"><img src="../assets/zip icon/storeicon.png" alt="">Store</a></li>
+                    <li><a href="../vistas/news.html"><img src="../assets/zip icon/newsicon.png" alt="">News</a></li>
+                    <li><a href="../vistas/cuenta.html"><img src="../assets/zip icon/cuentaicon.png" alt="">Cuenta</a></li>
+                </ul>
+                <div class="browser">
+                    <div class="browser__container">
+                        <span class="iconBrowser"></span>
+                        <input type="search" id="search" placeholder="Buscar..." />
+                    </div>
+                </div>
+            </nav> 
+    </header>
+    <main class="main__cuenta">
+        <div class="main__input">
+            <div class="titleRegister">
+                <h2>Registrate</h2>
+            </div>
+            <form action="body__Register" method="get" class="registro" >
+                <div class="input__datos">
+                    <label for="userName">Nombre</label>
+                    <input type="text" id="userName" name="userName" required>
+                </div>
+                <div class="input__datos">
+                    <label for="userNameApellido">Apellido</label>
+                    <input type="text" id="userNameApellido" name="userNameApellido" required>
+                </div>
+                <div class="input__datos">
+                    <label for="userMail">Correo electronico</label>
+                    <input type="text" id="userMail" name="userMail" required>
+                </div>
+                <div class="input__datos">
+                    <label for="receivenews">¿Desea recibir el Newsletter?</label>
+                    <input type="checkbox" name="receivenews" id="receivenews">
+                </div>
+                <div class="input__datos">
+                    <label for="userPass">Password</label>
+                    <input type="text" id="userPass" name="userPass" required>
+                </div>
+                <button type="submit">ENVIAR</button>
+                <button type="reset">RESET</button>
+            </form>
+        </div>
+        <div class="main__input">
+            <div class="title__Login">
+                <h2>Login</h2>
+            </div>
+            <form action="body__Login" method="get" class="login" >
+                <div class="input__datos">
+                    <label for="userMail">Correo electronico</label>
+                    <input type="text" id="userMail" name="userMail" required>
+                </div>
+                <div class="input__datos">
+                    <label for="userPass">Password</label>
+                    <input type="text" id="userPass" name="userPass" required>
+                </div>
+                <button type="submit">ENVIAR</button>
+                <button type="reset">RESET</button>
+            </form>
+        </div>
+    </main>
+    <footer> 
+        <div class="social"> 
+                <div class="social__imagen"><img src="../assets/social/instagramicon.png" alt="instagram"></div>
+                <h4>Instagram</h4>
+                <div class="social__imagen"><img src="../assets/social/facebookicon.png" alt="gmail"></div>
+                <h4>Facebook</h4>
+                <div class="social__imagen"><img src="../assets/social/gmailicon.png" alt="gmail"></div>
+                <h4>Gmail</h4>
+        </div>
+        <div class="footer__inf">
+            <h3>Derechos reservados</h3>
+        </div>
+    </footer>
+
+</body>
+</html>

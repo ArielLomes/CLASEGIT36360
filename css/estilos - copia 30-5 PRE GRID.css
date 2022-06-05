@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+    
+}
+header{
+    padding: 5px;
+    background-color: cornflowerblue;
+    display: flex; 
+    align-items: center;
+    align-content: center;
+    top: 0px;
+    min-width: 100%;
+    z-index: 2;
+    position: sticky;
+}
+nav{
+    margin-left: auto;
+    display: flex;
+
+}
+.header__navbar{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+    display: inline-flex;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    margin: 2px 8px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.browser{
+    display: inline-flex;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+@media screen and (max-width: 585px){
+    .browser{
+        display: none;
+    }
+    
+}
+
+.main{
+    display: flexbox;
+    position: relative;
+}
+.textBanner{
+    display: flex;
+    position: absolute;
+    margin: 15px;
+    padding: 8px;
+    top: 50px;
+    left: 50px;
+    color: aliceblue;
+    font-size: xx-large;
+    
+}
+.main img{
+    max-width: 100%;
+}
+.section__noticias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.section__title{
+    background-color: brown;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+}
+.article__body{
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    flex-wrap: wrap;
+    
+}
+.notice{
+    padding: 10px;
+    background-color: cadetblue;
+    margin: 5px;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.article__news{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.video__notice{
+    padding: 15px;
+    height: auto;
+    background-color: aquamarine;
+}
+.section__titleVideo{
+    background-color: brown;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.video__body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.video{
+    display: flex;
+    justify-content: space-around;
+    height: 380px;
+    border: 2px;
+    padding: 15px;
+    background-color: cornflowerblue;
+}
+footer{
+    bottom: 0px;
+    padding: 15px;
+    background-color: rgb(32, 37, 35);
+}
+.social img{
+    height: 50px;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.social__imagen{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    padding: 5px;
+}
+.social h4{
+    padding: 15px;
+}
+.footer__inf{
+    display: flex;
+    justify-content: center;
+}
+.banner__Marcas{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    margin: 5px;
+    width: 400px;
+    height: 380px;
+    display: inline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------INICIO CUENTA------------*/
+.main__cuenta{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(12, 55, 173);
+    
+    
+}
+.main__input{
+    padding: 50px;
+    background-color: rgb(64, 174, 207);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 19rem;
+}
+.titleRegister{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 3px 3px 15px 3px;
+
+}
+.body__Register{
+    margin: 15px;
+    padding: 10px;
+}
+.input__datos{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.title__Login{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 3px 3px 15px 3px;
+}
+/*----------FIN CUENTA---------*/
+.main__repuestos{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.banner__Marcas{
+        display: flex;
+        padding: 10px;
+        background-color: rgb(0, 0, 0);
+        margin: 5px;
+        width: 400px;
+        height: 380px;
+        display: inline;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+}
