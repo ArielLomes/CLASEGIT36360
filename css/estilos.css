@@ -85,7 +85,38 @@ li{
     font-size: xx-large;
     
 }
+footer{
+    display: flex;
+    bottom: 0px;
+    padding: 15px;
+    background-color: rgb(32, 37, 35);
+    padding: 5px;
+    flex-direction: column;
+}
+.social img{
+    height: 50px;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.social__imagen{
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    padding: 5px;
+}
+.social h4{
+    padding: 15px;
+}
+.footer__inf{
+    display: flex;
+    justify-content: center;
+}
 
+
+/*-----------INICIO NEWS------------*/
 .section__noticias{
     display: flex;
     justify-content: center;
@@ -123,8 +154,6 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-wrap: wrap;
-
 }
 .video__notice{
     padding: 15px;
@@ -150,50 +179,38 @@ li{
     padding: 15px;
     background-color: cornflowerblue;
 }
-
+/*------ INICIO REPUESTOS-----*/
+.banner__{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .banner__Marcas{
     display: flex;
     padding: 10px;
     background-color: rgb(0, 0, 0);
+    height: 250px;
+    width: 250px;
+    
+    
+}
+.banner__Marcas img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/*-- INICIO STORE --*/
+.ropa{
+    padding: 10px;
+    background-color: cadetblue;
     margin: 5px;
     width: 400px;
-    height: 380px;
-    display: inline;
+    height: 450px;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: stretch;
 }
-footer{
-    display: flex;
-    bottom: 0px;
-    padding: 15px;
-    background-color: rgb(32, 37, 35);
-    padding: 5px;
-}
-.social img{
-    height: 50px;
-}
-.social{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-.social__imagen{
-    display: flex;
-    align-items: center;
-    font-size: larger;
-    padding: 5px;
-}
-.social h4{
-    padding: 15px;
-}
-.footer__inf{
-    display: flex;
-    justify-content: center;
-}
-
-
-
 
 
 
@@ -263,16 +280,4 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-}
-.banner__Marcas{
-        display: flex;
-        padding: 10px;
-        background-color: rgb(0, 0, 0);
-        margin: 5px;
-        width: 400px;
-        height: 380px;
-        display: inline;
-        flex-direction: column;
-        justify-content: center;
-        align-items: stretch;
 }
