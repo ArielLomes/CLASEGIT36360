@@ -1,0 +1,31 @@
+footer{
+    display: flex;
+    padding: 15px;
+    background-color: rgb(32, 37, 35);
+    padding: 5px;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    bottom: 0;
+}
+
+    .color1 {color: #140f07;}
+.color2 {color: #0f304c;}
+.color3 {color: #0971a5;}
+
+.color4 {color: #07baff;}
+.color5 {color: #0efff9;}
+
+
+.color1 {color: #130d1e;}
+.color2 {color: #0e3b65;}
+.color3 {color: #0879c0;}
+.color4 {color: #08c3ff;}
+.color5 {color: #0ffff8;}
+
+.color1 {color: #120907;}
+.color2 {color: #121f39;}
+.color3 {color: #145b8d;}
+.color4 {color: #209ad8;}
+.color5 {color: #20d5d8;}
