@@ -10,18 +10,18 @@
 .main{ grid-area: hero;}
 .section__noticias{ grid-area: main1;}
 .video__notice{ grid-area: main2;}
-footer{ grid-area: footer;}
+.footer{ grid-area: foot;}
 
 .body__container{
     display: grid;
     grid-template-columns: 40px 50px 1fr 50px 40px;
-    grid-template-rows: 60px 1vh auto auto 300px;
+    grid-template-rows: 60px 1vh 1vh 1vh 1vh;
     grid-template-areas: 
         " head head head head head"
         "hero hero hero hero hero"
         "main1 main1 main1 main1 main1"
         "main2 main2 main2 main2 main2"
-        "footer footer footer footer footer";
+        "foot foot foot foot foot";
 }
 
 header{
@@ -83,32 +83,43 @@ li{
     left: 50px;
     color: aliceblue;
     font-size: xx-large;
-    
+}
+.section__title__main{
+    background-color: brown;
+    padding: 50px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
 }
 footer{
     display: flex;
-    bottom: 0px;
     padding: 15px;
     background-color: rgb(32, 37, 35);
     padding: 5px;
     flex-direction: column;
+    width: 100%;
+    height: 50%;
+    z-index: 5;
+    bottom: 0;
 }
-.social img{
-    height: 50px;
-}
+
 .social{
     display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .social__imagen{
     display: flex;
-    align-items: center;
     font-size: larger;
     padding: 5px;
+    align-items: center;
+}
+.social__imagen img{
+    padding: 5px;
+    max-width: 40%;
+    max-height: 40%;
 }
 .social h4{
-    padding: 15px;
+    padding: 5px;
 }
 .footer__inf{
     display: flex;
@@ -129,6 +140,7 @@ footer{
     display: flex;
     justify-content: center;    
     align-items: center;
+    margin-top: 74px;
 }
 .article__body{
     background-color: pink;
@@ -136,6 +148,7 @@ footer{
     justify-content: space-around;
     padding: 15px;
     flex-wrap: wrap;
+    
     
 }
 .notice{
@@ -180,6 +193,14 @@ footer{
     background-color: cornflowerblue;
 }
 /*------ INICIO REPUESTOS-----*/
+.main__repuestos{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 .banner__{
     display: flex;
     flex-wrap: wrap;
@@ -203,13 +224,23 @@ footer{
 .ropa{
     padding: 10px;
     background-color: cadetblue;
-    margin: 5px;
+    margin:  5px;
     width: 400px;
     height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: stretch;
+
+}
+.store__body{
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    flex-wrap: wrap;
+    margin-top: 74px;
+    
 }
 
 
@@ -239,8 +270,7 @@ footer{
     display: flex;
     justify-content: space-around;
     background-color: rgb(12, 55, 173);
-    
-    
+    margin-top: 74px;
 }
 .main__input{
     padding: 50px;
@@ -274,10 +304,3 @@ footer{
     margin: 3px 3px 15px 3px;
 }
 /*----------FIN CUENTA---------*/
-.main__repuestos{
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
