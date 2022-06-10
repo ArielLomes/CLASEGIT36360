@@ -40,3 +40,73 @@ footer{
 .color3 {color: #145b8d;}
 .color4 {color: #209ad8;}
 .color5 {color: #20d5d8;}
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+<div class="browser">
+                    <div class="browser__container">
+                        <span class="iconBrowser"></span>
+                        <input type="search" id="search" placeholder="Buscar..." />
+                    </div>
+                </div>
+
+
+
+                BUSCADOR
+
+<main class="container">
+        <div class="row">
+            <div class="col-md-6 d-flex">
+                    <h2>Registrate</h2>
+                <form action="body__Register" method="get" class="registro" >
+                    <div class="input__datos">
+                        <label for="userName">Nombre</label>
+                        <input type="text" id="userName" name="userName" required>
+                    </div>
+                    <div class="input__datos">
+                        <label for="userNameApellido">Apellido</label>
+                        <input type="text" id="userNameApellido" name="userNameApellido" required>
+                    </div>
+                    <div class="input__datos">
+                        <label for="userMail">Correo electronico</label>
+                        <input type="text" id="userMail" name="userMail" required>
+                    </div>
+                    <div class="input__datos">
+                        <label for="receivenews">¿Desea recibir el Newsletter?</label>
+                        <input type="checkbox" name="receivenews" id="receivenews">
+                    </div>
+                    <div class="input__datos">
+                        <label for="userPass">Password</label>
+                        <input type="text" id="userPass" name="userPass" required>
+                    </div>
+                    <button type="submit">ENVIAR</button>
+                    <button type="reset">RESET</button>
+                </form>
+            </div>
+        </div>
+        <div>
+            <div class="col-md-6 d-flex">
+                <h2>Login</h2>
+            </div>
+            <form action="body__Login" method="get" class="login" >
+                <div class="input__datos">
+                    <label for="userMail">Correo electronico</label>
+                    <input type="text" id="userMail" name="userMail" required>
+                </div>
+                <div class="input__datos">
+                    <label for="userPass">Password</label>
+                    <input type="text" id="userPass" name="userPass" required>
+                </div>
+                <button type="submit">ENVIAR</button>
+                <button type="reset">RESET</button>
+            </form>
+        </div>
+    </main>
+    <footer> 
+    
+    </div>
+    </footer>
