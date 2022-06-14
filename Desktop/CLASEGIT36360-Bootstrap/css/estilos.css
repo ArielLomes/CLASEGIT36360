@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; 
+    
+}
+
+
+.navbar-custom{
+    background-color: #145B8D;
+}
+.bg-notice{
+    background-color: #DFF6FF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header{
+    padding: 5px;
+    background-color: #145B8D;
+    display: flex; 
+    align-items: center;
+    align-content: center;
+    top: 0px;
+    min-width: 100%;
+    z-index: 2;
+    position: fixed;
+    justify-content: space-between;
+}
+
+nav{
+    margin-left: auto;
+    display: flex;
+}
+.header__navbar{
+    margin: 5px;
+    padding: 5px;
+    list-style: none;
+    display: inline-flex;
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+.header__navbar a{
+    padding: 2px;
+}
+.header__navbar li{
+    padding: 3px;
+}
+.header__navbar li :hover{
+    background-color: rgb(221, 240, 255);
+    border-radius: 3px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    margin: 2px 8px;
+    justify-content: space-between;
+    display: flex;
+    align-content: center;
+}
+.browser{
+    display: inline-flex;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+.main img{
+    max-width: 100%;
+}
+.main{
+    display: flexbox;
+    position: relative;
+}
+.banner img{
+	animation: kenburns-top 0.2s ease-out both;
+}
+@keyframes kenburns-top {
+    0% {
+        transform: scale(0.95) translateY(0);
+        transform-origin: 50% 16%;
+    }
+    100% {
+        transform: scale(1) translateY(-15px);
+        transform-origin: top;
+    }
+}
+.textBanner{
+    display: flex;
+    position: absolute;
+    margin: 15px;
+    padding: 8px;
+    top: 50px;
+    left: 50px;
+    color: aliceblue;
+    font-size: xx-large;
+}
+.section__title__main{
+    background-color: brown;
+    padding: 50px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+}
+/*Problema con el footer en index, queda en cualquier ubicacion*/
+.footer{
+    display: none;
+    padding: 15px;
+    background-color: #121F39;
+    padding: 5px;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+}
+.social__imagen{
+    display: flex;
+    font-size: larger;
+    padding: 5px;
+    align-items: center;
+}
+.social__imagen img{
+    padding: 5px;
+    max-width: 40%;
+    max-height: 40%;
+}
+.social h4{
+    padding: 5px;
+}
+.footer__inf{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*-----------INICIO NEWS------------*/
+.section__noticias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.section__noticias h2{
+    border-radius: 5px ;
+    padding: 15px;
+    background-color: #C6EDFD;
+    margin: 10px;
+}
+.section__title__main{
+    background-color: #DFF6FF;
+}
+.section__title{
+    padding: 50px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin-top: 74px;
+    background-color: #64B9DB;
+}
+.section__title h2{
+    background-color: #C6EDFD;
+    border-radius: 5px ;
+    margin: 10px;
+    padding: 15px;
+}
+.article__body{
+    background-color: #DFF6FF;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.notice{
+    background-color: #C6EDFD;
+}
+
+.notice img{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+    border-radius: 3px;
+}
+.notice:hover img{
+    transform: scale(1.04);
+}
+.article__news{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.video__notice{
+    height: auto;
+    background-color: #DFF6FF;
+}
+.video__notice h2 {
+    border-radius: 5px ;
+    padding: 15px;
+    background-color: #C6EDFD;
+    margin: 10px;
+}
+.section__titleVideo{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.video__body{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.video{
+    display: flex;
+    justify-content: space-around;
+    height: 380px;
+    border: 2px;
+    padding: 15px;
+    background-color: #C6EDFD;
+    border-radius: 3px;
+    border: solid #F4E1BD 2px;
+}
+/*------ INICIO REPUESTOS-----*/
+.main__repuestos{
+    background-color: #64B9DB;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.section__title__repuestos{
+    padding: 50px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    margin-top: 74px;
+}
+.section__title__repuestos h3{
+    border-radius: 5px ;
+    padding: 15px;
+    background-color: #C6EDFD;
+    margin: 10px;
+}
+
+.banner__{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.banner__Marcas{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    height: 250px;
+    width: 250px;
+    
+    
+}
+.banner__Marcas img{
+    max-width: 100%;
+    max-height: 100%;
+}
+/*-- INICIO STORE --*/
+.ropa{
+    padding: 10px;
+    background-color: #C6EDFD;
+    margin:  5px;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    border: solid #F4E1BD 2px;
+
+}
+.store__body{
+    background-color: #DFF6FF;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    flex-wrap: wrap;
+    margin-top: 74px;
+    
+}
+
+/*-----------INICIO CUENTA------------*/
+.main__cuenta{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(12, 55, 173);
+    margin-top: 74px;
+}
+.main__input{
+    padding: 50px;
+    background-color: rgb(64, 174, 207);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 19rem;
+}
+.titleRegister{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 3px 3px 15px 3px;
+
+}
+.body__Register{
+    margin: 15px;
+    padding: 10px;
+}
+.input__datos{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.title__Login{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 3px 3px 15px 3px;
+}
+/*----------FIN CUENTA---------*/
