@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FL Performance</title>
-    <link rel="icon" href="./assets/iconsocial/logopage.png">
+    <link rel="icon" href="../assets/iconsocial/logopage.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -18,49 +18,82 @@
             <a class="navbar-brand" href="../index.html"><img src="../assets/logopage.png" alt="turbo" width="40rem" id="header__logo">
             </a>
             <ul class="nav nav-tabs justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" href="../index.html"><img src="../assets/zip icon/homeicon.png" alt=""> Inicio</a>
+            <li class="nav-item ">
+                <a class="nav-link active li-h" href="../index.html">
+                    <img src="../assets/zip icon/homeicon.png" alt="">Inicio</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown li-h">
                 <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"><img src="../assets/zip icon/repuestosicon.png" alt=""> Repuestos</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./vistas/repuestos.html">Turbos</a>
-                    <a class="dropdown-item" href="./vistas/repuestos.html">Admision</a>
-                    <a class="dropdown-item" href="./vistas/repuestos.html">Sistema de Combustibles</a>
-                    <a class="dropdown-item" href="./vistas/repuestos.html">Linea de Escapes</a>
-                    <a class="dropdown-item" href="./vistas/repuestos.html">Suspencion</a>
+                    <a class="dropdown-item" href="./repuestos.html">Turbos</a>
+                    <a class="dropdown-item" href="./repuestos.html">Admision</a>
+                    <a class="dropdown-item" href="./repuestos.html">Sistema de Combustibles</a>
+                    <a class="dropdown-item" href="./repuestos.html">Linea de Escapes</a>
+                    <a class="dropdown-item" href="./repuestos.html">Suspencion</a>
                 </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="../vistas/store.html"><img src="../assets/zip icon/storeicon.png" alt=""> Store</a>
+            <li class="nav-item li-h">
+                <a class="nav-link active" href="./store.html"><img src="../assets/zip icon/storeicon.png" alt=""> Store</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="../vistas/news.html"><img src="../assets/zip icon/newsicon.png" alt=""> News</a>
+            <li class="nav-item li-h">
+                <a class="nav-link active " href="./news.html"><img src="../assets/zip icon/newsicon.png" alt=""> News</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="../vistas/cuenta.html"><img src="../assets/zip icon/cuentaicon.png" alt=""> Cuenta</a>
+            <li class="nav-item li-h">
+                <a class="nav-link active" href="./cuenta.html"><img src="../assets/zip icon/cuentaicon.png" alt=""> Cuenta</a>
             </li>
             </ul> 
         </nav>
     </header>
-    <main class="main__repuestos">
-        <div class="section__title__repuestos">
+    <main>
+        <div class="">
             <h3>Encontra esa pieza o repuesto que precisas</h3>
         </div>
-        <ul class="article__body">
-            <li class="notice"><img src="../assets/repuestos/turbo.jpg" alt=""> <h4>Turbos</h4></li>
-            <li class="notice"><img src="../assets/repuestos/admision.jpg" alt=""> <h4>Admision</h4></li>
-            <li class="notice"><img src="../assets/repuestos/fuel.jpg" alt=""> <h4>Sistema de Combustibles</h4></li>
-            <li class="notice"><img src="../assets/repuestos/escape.jpg" alt=""> <h4>Linea de Escapes</h4></li>
-            <li class="notice"><img src="../assets/repuestos/suspension.jpg" alt=""> <h4>Suspencion</h4></li>
-            <li class="notice"><img src="../assets/repuestos/proximamente.jpg" alt=""> <h4>Proximamente...</h4></li>
-        </ul>
-        <ul class="banner__">
-            <li> <a href="https://www.bilstein.com/int/en/"  class="banner__Marcas"><img src="../assets/repuestos/bilsteinlogo.jpg" alt="bilstein"></a></li>
-            <li> <a href="https://www.garrettmotion.com/es/racing-and-performance/performance-turbos/" class="banner__Marcas"><img src="../assets/repuestos/garret icon.jpg" alt="garret"></a></li>
-            <li> <a href="https://www.hksusa.com/" class="banner__Marcas"><img src="../assets/repuestos/hkslogo.jpg" alt="HKS"></a></li>
-            <li> <a href="https://k-tuned.3dcartstores.com/" class="banner__Marcas"><img src="../assets/repuestos/ktunedlogo.jpg" alt="ktuned"></a></li>
-        </ul>
+        <div class="card-group container-fluid mt-5">
+            <div class="row ">
+                <div class="card col-md-4">
+                    <img src="../assets/repuestos/turbo.jpg" class="card-img-top img-thumbnail p-5" alt="Turbo">
+                    <div class="card-body">
+                        <h5 class="card-title">Turbos</h5>
+                        <p class="card-text">del mas pequeno al mas grande</p>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <img src="../assets/repuestos/admision.jpg" class="card-img-top img-thumbnail" alt="Admision">
+                    <div class="card-body">
+                        <h5 class="card-title">Admisiones</h5>
+                        <p class="card-text">Para todos los modelos</p>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <img src="../assets/repuestos/fuel.jpg" class="card-img-top img-thumbnail"  alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistema de Combustibles</h5>
+                        <p class="card-text">Diferentes Combustibles</p>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <img src="../assets/repuestos/escape.jpg" class="card-img-top img-thumbnail" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistema de Escapes</h5>
+                        <p class="card-text">DownPipe, Muffler, Exhaust, Headers </p>
+                    </div>
+                </div class="card-body">
+                <div class="card col-md-4">
+                    <img src="../assets/repuestos/suspension.jpg" class="card-img-top img-thumbnail" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Suspenciones</h5>
+                        <p class="card-text">Coilovers, Off-Road, Air</p>
+                    </div>
+                </div>
+                <div class="card col-md-4">
+                    <img src="../assets/repuestos/proximamente.jpg" class="card-img-top img-thumbnail" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Proximamente...</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <footer class="container-fluid foot-color text-light">
         <ul class="d-flex justify-content-evenly list-unstyled">

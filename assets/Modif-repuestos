@@ -1,0 +1,17 @@
+        <div class="section__title__repuestos">
+            <h3>Encontra esa pieza o repuesto que precisas</h3>
+        </div>
+        <ul class="article__body">
+            <li class="notice"><img src="../assets/repuestos/turbo.jpg" alt=""> <h4>Turbos</h4></li>
+            <li class="notice"><img src="../assets/repuestos/admision.jpg" alt=""> <h4>Admision</h4></li>
+            <li class="notice"><img src="../assets/repuestos/fuel.jpg" alt=""> <h4>Sistema de Combustibles</h4></li>
+            <li class="notice"><img src="../assets/repuestos/escape.jpg" alt=""> <h4>Linea de Escapes</h4></li>
+            <li class="notice"><img src="../assets/repuestos/suspension.jpg" alt=""> <h4>Suspencion</h4></li>
+            <li class="notice"><img src="../assets/repuestos/proximamente.jpg" alt=""> <h4>Proximamente...</h4></li>
+        </ul>
+        <ul class="banner__">
+            <li> <a href="https://www.bilstein.com/int/en/"  class="banner__Marcas"><img src="../assets/repuestos/bilsteinlogo.jpg" alt="bilstein"></a></li>
+            <li> <a href="https://www.garrettmotion.com/es/racing-and-performance/performance-turbos/" class="banner__Marcas"><img src="../assets/repuestos/garret icon.jpg" alt="garret"></a></li>
+            <li> <a href="https://www.hksusa.com/" class="banner__Marcas"><img src="../assets/repuestos/hkslogo.jpg" alt="HKS"></a></li>
+            <li> <a href="https://k-tuned.3dcartstores.com/" class="banner__Marcas"><img src="../assets/repuestos/ktunedlogo.jpg" alt="ktuned"></a></li>
+        </ul>

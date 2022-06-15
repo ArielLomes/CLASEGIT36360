@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FL Performance</title>
-    <link rel="icon" href="./assets/iconsocial/logopage.png">
+    <link rel="icon" href="../assets/iconsocial/logopage.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -18,66 +18,82 @@
             <a class="navbar-brand" href="../index.html"><img src="../assets/logopage.png" alt="turbo" width="40rem" id="header__logo">
             </a>
             <ul class="nav nav-tabs justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" href="../index.html"><img src="../assets/zip icon/homeicon.png" alt=""> Inicio</a>
+            <li class="nav-item ">
+                <a class="nav-link active li-h" href="../index.html">
+                    <img src="../assets/zip icon/homeicon.png" alt="">Inicio</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown li-h">
                 <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"><img src="../assets/zip icon/repuestosicon.png" alt=""> Repuestos</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="./vistas/repuestos.html">Turbos</a>
-                    <a class="dropdown-item" href="./vistas/repuestos.html">Admision</a>
-                    <a class="dropdown-item" href="./vistas/repuestos.html">Sistema de Combustibles</a>
-                    <a class="dropdown-item" href="./vistas/repuestos.html">Linea de Escapes</a>
-                    <a class="dropdown-item" href="./vistas/repuestos.html">Suspencion</a>
+                    <a class="dropdown-item" href="./repuestos.html">Turbos</a>
+                    <a class="dropdown-item" href="./repuestos.html">Admision</a>
+                    <a class="dropdown-item" href="./repuestos.html">Sistema de Combustibles</a>
+                    <a class="dropdown-item" href="./repuestos.html">Linea de Escapes</a>
+                    <a class="dropdown-item" href="./repuestos.html">Suspencion</a>
                 </div>
             </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="../vistas/store.html"><img src="../assets/zip icon/storeicon.png" alt=""> Store</a>
+            <li class="nav-item li-h">
+                <a class="nav-link active" href="./store.html"><img src="../assets/zip icon/storeicon.png" alt=""> Store</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="../vistas/news.html"><img src="../assets/zip icon/newsicon.png" alt=""> News</a>
+            <li class="nav-item li-h">
+                <a class="nav-link active " href="./news.html"><img src="../assets/zip icon/newsicon.png" alt=""> News</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link active" href="../vistas/cuenta.html"><img src="../assets/zip icon/cuentaicon.png" alt=""> Cuenta</a>
+            <li class="nav-item li-h">
+                <a class="nav-link active" href="./cuenta.html"><img src="../assets/zip icon/cuentaicon.png" alt=""> Cuenta</a>
             </li>
             </ul> 
         </nav>
     </header>
     <main>
-        <section class="section__noticias">
-            <div>
-                <a href="./vistas/news.html" class="section__title"><h2>Noticias</h2></a>
+        <div class="container-fluid bg-main p-5">
+            <div class="p-3 h2 d-flex justify-content-center bg-notice rounded-1 ">
+                Noticias
             </div>
-            <div class="article__body">
-                <article class="notice">
-                    <a href="../vistas/news.html" class="article__news">
-                    <h3>Nueva generacion de Volswagen Amarok</h3> 
-                    <p>La marca alemana finalmente anunció la fecha de presentación de su pick up y 
-                    brindó algunos detalles más de la gama: será comercializada en 4 niveles de equipamiento.</p>
-                    <img src="../assets/amarok2023.jpg" alt="amarok2023">
-                    </a>
-                </article>
-                <article class="notice">
-                    <a href="../vistas/news.html" class="article__news">
-                    <h3>Ley de Tránsito: multas más duras para adelantamientos indebidos</h3>
-                    <p>Salió una modificación de los Decretos N° 779/95 y 437/2011 en la cual muchas 
-                    penas duplican a las que estaban anteriormente tipificadas.</p>
-                    <img src="../assets/controlTransito.jpg" alt="controlTransito"></a>
-                </article>
-                <article class="notice">
-                    <a href="../vistas/news.html" class="article__news">
-                    <h3>Estos son los precios que tendrán los autos en mayo</h3>
-                    <p>Por medio de la Guía de la Cámara del Comercio Automotor, enterate cuánto costarán los 
-                    automóviles 0km y usados con una antigüedad de hasta 15 años.</p>
-                    <img src="../assets/preciousados.jpg" alt=""></a>
-                </article>
-            </div>
-        </section>
-        <div class="video__notice">
-            <a href="../vistas/news.html" class="section__titleVideo"><h2>Video Noticias</h2></a>
-            <div class="video">
-                <iframe width="540" height="304" src="https://www.youtube.com/embed/AKn3Gx-k7mI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <iframe width="640" height="360" src="http://www.espn.com.ar/core/video/iframe?id=10342696&endcard=false" allowfullscreen frameborder="0"></iframe>
+            <div class="row justify-content-evenly">
+                <div class="card m-3 p-3  notice" style="width: 22rem;">
+                    <img src="../assets/amarok2023.jpg" class="card-img-top  rounded-1" alt="...">
+                    <div class="card-body ">
+                        <h5 class="card-title">Nueva generacion de Volswagen Amarok</h5>
+                        <p class="card-text">La marca alemana finalmente anunció la fecha de presentación de su pick up y 
+                            brindó algunos detalles más de la gama: será comercializada en 4 niveles de equipamiento.</p>
+                        <a href="./vistas/news.html" class="btn btn-primary">Ver Noticia Completa</a>
+                    </div>
+                </div>
+                <div class="card m-3 p-3 notice" style="width: 22rem;">
+                    <img src="../assets/controlTransito.jpg" class="card-img-top  rounded-1" alt="">
+                    <div class="card-body">
+                        <h5>Ley de Tránsito: multas más duras para adelantamientos indebidos </h5>
+                        <p>Salió una modificación de los Decretos N° 779/95 y 437/2011 en la cual muchas 
+                            penas duplican a las que estaban anteriormente tipificadas.</p>
+                        <a href="./vistas/news.html" class="btn btn-primary">Ver Noticia Completa</a>
+                    </div>
+                </div>
+                <div class="card m-3 p-3 notice" style="width: 22rem;">
+                    <img src="../assets/preciousados.jpg" class="card-img-top  rounded-1" alt="">
+                    <div class="card-body">
+                        <h5>Estos son los precios que tendrán los autos en mayo</h5>
+                        <p>Por medio de la Guía de la Cámara del Comercio Automotor, enterate cuánto costarán los 
+                            automóviles 0km y usados con una antigüedad de hasta 15 años.</p>
+                        <a href="./vistas/news.html" class="btn btn-primary">Ver Noticia Completa</a>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="container-fluid bg-main p-5">
+            <div class="p-3 h2 d-flex  justify-content-center bg-notice rounded-1">Video Media</div>
+            <div class="row d-flex flex-wrap justify-content-evenly">
+                <div class="card m-3 p-3 videoMedia" style="width: auto;" >
+                    <div>
+                        <div class="h5">Toyo Tires en BAJA 500</div>
+                        <iframe width="500" height="304" src="https://www.youtube.com/embed/VdVs-AFRAQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="card m-3 p-3 videoMedia" style="width: auto;" >
+                    <div class="">
+                        <div class="h5">Ken Block: Pone a prueba Dodge Ram TRX</div>
+                        <iframe width="500" height="304" src="https://www.youtube.com/embed/pXuJUMIrc6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
