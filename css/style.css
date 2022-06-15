@@ -60,6 +60,36 @@
 .foot-color{
     background-color: #121F39;
 }
+label {
+    display: none;
+    float: right;
+}
+#barra{
+    display: none;
+}
+@media screen and (max-width: 660px)  {
+    label {
+        display: block;
+        margin: 0 30px 0 0;
+        
+    }
+    .menuMobile {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menuMobile li {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+    }
+    #barra:checked + .menuMobile {
+        display: block;
+    }
+    
+    
+}
+
 
 
 
