@@ -1,0 +1,20 @@
+.notice{
+    background-color: #c8ffff;
+    &__bgtitle{
+        background-color: #def3fc;
+    }
+    &__article{
+        border: solid #F4E1BD 2px;
+        background-color: #ebf8fc;
+        & img{
+            transition: 0.5s all ease-in-out;
+        }
+        &:hover img{
+            transform: scale(1.03);
+        }
+        &__video{
+            border: solid #F4E1BD 2px;
+            background-color: #ebf8fc;
+        }
+    }
+}

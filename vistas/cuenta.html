@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../sass/main.css">
 </head>
 <body>
     <header>
@@ -46,6 +46,54 @@
             </ul> 
         </nav>
     </header>
+    <main class="cuenta">
+        <div class="cuenta__input">
+            <div class="register__title">
+                <h2>Registrate</h2>
+            </div>
+            <form action="cuenta__body" method="get" class="registro" >
+                <div class="cuenta__datos">
+                    <label for="userName">Nombre</label>
+                    <input type="text" id="userName" name="userName" required>
+                </div>
+                <div class="cuenta__datos">
+                    <label for="userNameApellido">Apellido</label>
+                    <input type="text" id="userNameApellido" name="userNameApellido" required>
+                </div>
+                <div class="cuenta__datos">
+                    <label for="userMail">Correo electronico</label>
+                    <input type="text" id="userMail" name="userMail" required>
+                </div>
+                <div class="cuenta__datos">
+                    <label for="receivenews">¿Desea recibir el Newsletter?</label>
+                    <input type="checkbox" name="receivenews" id="receivenews">
+                </div>
+                <div class="cuenta__datos">
+                    <label for="userPass">Password</label>
+                    <input type="text" id="userPass" name="userPass" required>
+                </div>
+                <button type="submit">ENVIAR</button>
+                <button type="reset">RESET</button>
+            </form>
+        </div>
+        <div class="cuenta__input">
+            <div class="login__title">
+                <h2>Login</h2>
+            </div>
+            <form action="cuenta__body" method="get" class="login" >
+                <div class="cuenta__datos">
+                    <label for="userMail">Correo electronico</label>
+                    <input type="text" id="userMail" name="userMail" required>
+                </div>
+                <div class="cuenta__datos">
+                    <label for="userPass">Password</label>
+                    <input type="text" id="userPass" name="userPass" required>
+                </div>
+                <button type="submit">ENVIAR</button>
+                <button type="reset">RESET</button>
+            </form>
+        </div>
+    </main>
 <footer class="container-fluid foot-color text-light">
     <ul class="d-flex justify-content-evenly list-unstyled">
         <li class="">

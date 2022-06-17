@@ -1,0 +1,37 @@
+.cuenta{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(12, 55, 173);
+    margin-top: 74px;
+    &__input{
+        padding: 50px;
+        background-color: rgb(64, 174, 207);
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-bottom: 19rem;
+        .register__title{
+            border: 2px solid black;
+            padding: 5px;
+            margin: 3px 3px 15px 3px;
+        }
+        &__body{
+        margin: 15px;
+        padding: 10px;
+        &__datos{
+            display: flex;
+            margin: 5px;
+            padding: 5px;
+            justify-content: space-between;
+            align-items: center;
+        }
+        }
+        .login__title{
+            border: 2px solid black;
+            padding: 5px;
+            margin: 3px 3px 15px 3px;
+        }
+    }
+}

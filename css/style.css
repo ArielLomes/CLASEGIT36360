@@ -3,19 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif; 
-
+    
 }
 .bluenav{
     background-color: #145B8D;
     padding: 5px;
     padding-bottom: 5px;
-}
-.navbar-custom{
-    background-color: #145B8D;
-}
-.li-h :hover{
-    background-color: #d9f0fa;
-    border-radius: 3px;
 }
 .bg-notice{
     background-color: #def3fc;
@@ -54,42 +47,9 @@
     top: 150px;
     left: 50px;
 }
-.bg-main{
-    background-color: #c8ffff;
-}
 .foot-color{
     background-color: #121F39;
 }
-label {
-    display: none;
-    float: right;
-}
-#barra{
-    display: none;
-}
-@media screen and (max-width: 660px)  {
-    label {
-        display: block;
-        margin: 0 30px 0 0;
-        
-    }
-    .menuMobile {
-        text-align: center;
-        width: 100%;
-        display: none;
-    }
-    .menuMobile li {
-        display: block;
-        border-bottom: 1px solid #EAEAEB;
-        margin: 0;
-    }
-    #barra:checked + .menuMobile {
-        display: block;
-    }
-    
-    
-}
-
 
 
 
