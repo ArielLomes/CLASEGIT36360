@@ -1,20 +1,22 @@
+@import "./variable";
+
 .notice{
     background-color: #c8ffff;
     &__bgtitle{
-        background-color: #def3fc;
+        @include bgtitle;
     }
     &__article{
-        border: solid #F4E1BD 2px;
-        background-color: #ebf8fc;
+        border: map-get($borderandback, borde);
+        background-color: map-get($borderandback, back-color);
+        &__video{
+            border: map-get($borderandback, borde);
+            background-color: map-get($borderandback, back-color);
+        }
         & img{
             transition: 0.5s all ease-in-out;
         }
         &:hover img{
-            transform: scale(1.03);
-        }
-        &__video{
-            border: solid #F4E1BD 2px;
-            background-color: #ebf8fc;
+            transform: scale(1.03) ;
         }
     }
 }
