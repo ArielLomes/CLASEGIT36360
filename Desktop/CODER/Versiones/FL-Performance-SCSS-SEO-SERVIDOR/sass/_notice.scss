@@ -1,0 +1,41 @@
+@import "./variable";
+
+.notice{
+    background-color: #c8ffff;
+    &__bgtitle{
+        @include bgtitle;
+    }
+    &__article{
+        border: map-get($borderandback, borde);
+        background-color: map-get($borderandback, back-color);
+        &__video{
+            border: map-get($borderandback, borde);
+            background-color: map-get($borderandback, back-color);
+            
+        }
+        & img{
+            transition: 0.5s all ease-in-out;
+        }
+        &:hover img{
+            transform: scale(1.03) ;
+        }
+    }
+    @media screen and (max-width:632px) {
+        .card__video{
+            iframe {
+                display:none
+            }
+        }
+    }
+    @media screen and (min-width:632px) {
+        .card__video{
+            img{
+                display: none;
+            }
+            iframe{
+                aspect-ratio: 16 / 9;
+                width: 400px;
+            }
+        }
+    }
+}

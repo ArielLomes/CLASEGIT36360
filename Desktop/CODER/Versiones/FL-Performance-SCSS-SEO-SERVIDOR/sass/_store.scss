@@ -1,0 +1,31 @@
+@import "./variable";
+
+.store{
+    background-color: #DFF6FF;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    &__title{
+        @include bgtitle;
+    }
+    &__ropa{
+        padding: 10px;
+        margin:  5px;
+        width: 400px;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: stretch;
+        border: map-get($borderandback, borde);
+        background-color: map-get($borderandback, back-color);
+    }
+    & img{
+        transition: 0.5s all ease-in-out;
+    }
+    &:hover img{
+        transform: scale(1.03);
+    }
+}

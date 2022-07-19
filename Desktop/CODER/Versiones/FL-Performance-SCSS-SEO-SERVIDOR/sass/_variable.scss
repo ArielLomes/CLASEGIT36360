@@ -1,0 +1,16 @@
+$borderandback:(
+    borde: solid #F4E1BD 2px,
+    back-color: #ebf8fc
+);
+@mixin bgtitle{
+    background-color: #def3fc;
+    padding: 20px;
+    justify-content: center;
+    border-radius: 3px;
+    align-items: center;
+    display: flex;
+}
+@mixin cuboinput{
+    padding: 5px;
+    margin: 3px 3px 15px 3px;
+}
